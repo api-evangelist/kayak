@@ -1,8 +1,32 @@
 aid: kayak
 name: Kayak
-description: Kayak is a company surfaced as a portfolio company of general-catalyst and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  KAYAK is a free travel metasearch engine that searches hundreds of travel
+  sites at once so travelers can compare and find the lowest available prices on
+  flights, hotels, rental cars, and vacation packages, with an extensive
+  filtering system for narrowing results. Founded in 2004 and part of Booking
+  Holdings, KAYAK operates a family of global travel brands (including momondo,
+  Cheapflights, HotelsCombined, SWOODOO, checkfelix and Mundi) across 60+
+  international sites in 25+ languages. Beyond consumer metasearch it offers
+  KAYAK for Business, a Flight Tracker, an Explore destination-discovery tool,
+  and KAYAK AI trip-planning. KAYAK is a metasearch and price-comparison engine
+  rather than an online travel agency — bookings are completed with the airline,
+  hotel, car-rental company, or travel agency. This profile documents KAYAK's
+  public discovery, AI, and security surface; KAYAK does not currently operate a
+  public self-serve developer API program.
 url: https://raw.githubusercontent.com/api-evangelist/kayak/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://content.r9cdn.net/rimg/provider-logos/common/socialmedia/kayak-logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +35,57 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Travel
+- Metasearch
+- Flights
+- Hotels
+- Car Rental
+- Travel Search
+- Price Comparison
+- Booking Holdings
+- AI
 apis: []
+common:
+- type: Website
+  url: https://www.kayak.com/
+- type: About
+  url: https://www.kayak.com/about
+- type: Support
+  url: https://www.kayak.com/c/help/
+- type: Blog
+  url: https://www.kayak.com/news/
+- type: PrivacyPolicy
+  url: https://www.kayak.com/privacy
+- type: SignUp
+  url: https://www.kayak.com/login
+- type: Security
+  url: https://www.kayak.com/c/security/
+- type: SecurityTxt
+  url: well-known/kayak-security.txt
+- type: WellKnown
+  url: well-known/kayak-well-known.yml
+- type: LLMsTxt
+  url: llms/kayak-llms.txt
+- type: VulnerabilityDisclosure
+  url: security/kayak-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: security/kayak-trust-center.yml
+- type: Compliance
+  url: https://www.kayak.com/c/security/
+- type: Conformance
+  url: conformance/kayak-conformance.yml
+- type: DomainSecurity
+  url: security/kayak-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
