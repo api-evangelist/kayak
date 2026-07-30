@@ -1,0 +1,39 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.kayak.com/c/security/
+summary: >-
+  KAYAK does not publish a public API specification, so cross-cutting API
+  standards (OAuth2, OIDC, RFC 9457, pagination) cannot be asserted from a
+  spec. The conformance signals below are the compliance and security posture
+  KAYAK publishes on its security page, plus discovery conventions probed live.
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: named on https://www.kayak.com/c/security/
+- id: pci-dss
+  conforms: true
+  evidence: named on https://www.kayak.com/c/security/
+- id: gdpr
+  conforms: true
+  evidence: named on https://www.kayak.com/c/security/
+- id: ccpa
+  conforms: true
+  evidence: named on https://www.kayak.com/c/security/
+- id: sox
+  conforms: true
+  evidence: named on https://www.kayak.com/c/security/
+- id: nist-csf
+  conforms: true
+  evidence: NIST Cybersecurity Framework cited on https://www.kayak.com/c/security/
+- id: rfc9116-security-txt
+  conforms: true
+  evidence: /.well-known/security.txt present with Contact and Policy fields
+- id: llms-txt
+  conforms: true
+  evidence: /llms.txt published (text/plain, updated 2026-06-17)
+- id: dmarc
+  conforms: true
+  evidence: _dmarc.kayak.com policy p=reject
+- id: dnssec
+  conforms: false
+  evidence: no DS record on kayak.com

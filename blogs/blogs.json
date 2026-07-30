@@ -1,0 +1,21 @@
+{
+  "repo": "kayak",
+  "feeds": [
+    {
+      "source": "https://www.kayak.com/c/feed/",
+      "feed_url": "https://www.kayak.com/c/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.kayak.com/c/help/",
+      "feed_url": "https://www.kayak.com/c/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 1,
+  "fetched": "2026-07-25T15:00:33Z"
+}
