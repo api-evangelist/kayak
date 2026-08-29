@@ -11,6 +11,17 @@ description: KAYAK is a free travel metasearch engine that searches hundreds of 
   documents KAYAK's public discovery, AI, and security surface; KAYAK does not currently operate a public
   self-serve developer API program.
 url: https://raw.githubusercontent.com/api-evangelist/kayak/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
