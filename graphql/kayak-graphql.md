@@ -1,1 +1,0 @@
-# KAYAK GraphQL API
