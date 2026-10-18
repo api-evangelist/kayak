@@ -2,6 +2,7 @@ generated: '2026-10-14'
 method: searched
 checked:
 - https://storage.googleapis.com/tcfac/additional-consent-providers.csv
+- slack/integrations/slack-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: Google Ad Tech Providers
@@ -27,3 +28,22 @@ edges:
     detected: '2026-10-14'
   detected_by: sweep-adtech.py
   detected: '2026-10-14'
+- partner_name: Slack (own)
+  partner: slack
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://slack.com/marketplace/A019GNVHYSV-kayak-for-business
+  mirror_of: slack/integrations/slack-integration-edges.yml
+  apps:
+  - KAYAK for Business
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Slack app
+source:
+- slack/integrations/slack-integration-edges.yml
