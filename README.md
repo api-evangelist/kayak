@@ -64,6 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kayak is a company surfaced as a portfolio company of general-catalyst and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+KAYAK is a free travel metasearch engine that searches hundreds of travel sites at once so travelers can compare and find the lowest available prices on flights, hotels, rental cars, and vacation packages, with an extensive filtering system for narrowing results. Founded in 2004 and part of Booking Holdings, KAYAK operates a family of global travel brands (including momondo, Cheapflights, HotelsCombined, SWOODOO, checkfelix and Mundi) across 60+ international sites in 25+ languages. Beyond consumer metasearch it offers KAYAK for Business, a Flight Tracker, an Explore destination-discovery tool, and KAYAK AI trip-planning. KAYAK is a metasearch and price-comparison engine rather than an online travel agency — bookings are completed with the airline, hotel, car-rental company, or travel agency. This profile documents KAYAK's public discovery, AI, and security surface; KAYAK does not currently operate a public self-serve developer API program.
 
-Backed by: general-catalyst
+**Areas:** Company · Travel · Metasearch · Flights · Hotels · Car Rental · Travel Search · Price Comparison · Booking Holdings · Artificial Intelligence
+
+## Kayak on APIs.io
+
+Everything profiled for Kayak is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kayak/](https://apis.io/providers/kayak/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### GraphQL (1)
+
+GraphQL schemas.
+
+- [Moved to /providers/kayak/](https://apis.io/graphqls/kayak/kayak-graphql/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kayak Domain Security](https://apis.io/security/kayak/kayak-domain-security/)
+- [Kayak Trust Center](https://apis.io/security/kayak/kayak-trust-center/)
+- [Kayak Vulnerability Disclosure](https://apis.io/security/kayak/kayak-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.kayak.com/)
+- [Sign up](https://www.kayak.com/login)
+- [Support](https://www.kayak.com/c/help/)
+- [Blog](https://www.kayak.com/news/)
+- [Security](https://www.kayak.com/c/security/)
+- [Compliance](https://www.kayak.com/c/security/)
+- [Privacy policy](https://www.kayak.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 20.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 39.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 23.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kayak/](https://apis.io/providers/kayak/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kayak: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kayak/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
